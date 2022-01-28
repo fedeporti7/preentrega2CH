@@ -20,7 +20,11 @@
     justify-content:center;
 }
 
-.imagen{justify-self:center;}
+.imagen {
+    justify-self: center;
+    /*Transformación*/
+        transform: skewY(5deg);
+}
 
 .menuFlex {
     display: flex;
@@ -407,9 +411,9 @@ ol{grid-area:ranking;
 /* vista entre desktop y mobile */
 
 @media only screen and (min-width:768px) and (max-width:1239px) {
-         body {
-    background-image:none;
-    background-color:aqua;
+    body {
+        /*Gradiente*/
+        background-image: linear-gradient(to top,aqua,white);
     }
     .header {
        
