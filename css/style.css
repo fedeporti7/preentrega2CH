@@ -49,10 +49,17 @@ table{grid-area:table;}
 section{grid-area:menu;}
 footer{grid-area:footer;}
 
+/*Animación*/
+
 .header {
     text-align: left;
     justify-content: left;
     background-color: aqua;
+    animation-name:animacion1;
+    animation-iteration-count:infinite;
+    animation-timing-function:ease-in;
+    animation-delay:0s;
+    animation-duration:1s;
     padding: 25px 25px 25px 25px;
     margin-left: 2%;
     margin-right: 2%;
@@ -62,6 +69,19 @@ footer{grid-area:footer;}
     font-family: Arial;
     font-size: xx-large;
     font-style: oblique;
+}
+
+
+@keyframes animacion1{
+    0%{background-color:blue;color:white;}
+    50% {
+        background-color: cadetblue;
+        color: white;
+    }
+    100% {
+        background-color: darkturquoise;
+        color: white;
+    }
 }
 
 
