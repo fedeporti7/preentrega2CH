@@ -65,13 +65,21 @@ footer{grid-area:footer;}
 }
 
 
-table {
+table{
     margin-left: auto;
     margin-right: auto;
     color: white;
     border-color: cornflowerblue;
     background-color: steelblue;
     text-align: center;
+}
+
+/*Transiciones*/
+
+table:hover {
+    color: red;
+    background-color: blue;
+   
 }
 
 .menu {
