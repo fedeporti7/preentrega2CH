@@ -3,6 +3,11 @@
     padding:0;
 }
 
+body {
+    background-image: url(https://c.wallhere.com/photos/c9/25/1920x1080_px_Abstract_Blue_And_White_Wallpaper_HD-809474.jpg!d);
+    background-size: cover;
+}
+
 /*Grid y formato para html Index*/
 .gridContainer1 {
     display: grid;
@@ -20,11 +25,10 @@
     justify-content:center;
 }
 
-.imagen {
+/*.imagen {
     justify-self: center;
-    /*Transformación*/
-        transform: skewY(5deg);
-}
+    transform:skewY(0deg);
+}*/
 
 .menuFlex {
     display: flex;
@@ -84,7 +88,7 @@ footer{grid-area:footer;}
     }
 }
 
-
+/*
 table{
     margin-left: auto;
     margin-right: auto;
@@ -92,15 +96,15 @@ table{
     border-color: cornflowerblue;
     background-color: steelblue;
     text-align: center;
-}
+}*/
 
 /*Transiciones*/
-
+/*
 table:hover {
-    color: red;
-    background-color: blue;
+    color: aqua;
+    background-color: white;
    
-}
+}*/
 
 .menu {
     text-align: center;
@@ -127,6 +131,7 @@ li {
     padding: 25px 25px 25px 25px;
 }
 
+
 /*Grid y formato para html "Antecedentes"*/
 .gridContainer2 {
     display: grid;
@@ -144,12 +149,14 @@ li {
     grid-row-gap: 10px;
 }
 
+/*
 nav{grid-area:nav;}
 iframe{grid-area:video;
        justify-self:center;
 }
 h1{grid-area:titulo;
 }
+    */
 
 
 
@@ -323,6 +330,8 @@ ol{grid-area:ranking;
 /*MEDIA QUERIES*/
 
 /*vista mobile*/
+
+/*
 @media only screen and (min-width:0px) and (max-width:767px) {
     .gridContainer1 {
         display: grid;
@@ -438,9 +447,14 @@ ol{grid-area:ranking;
     
 /* vista entre desktop y mobile */
 
+
+/*
+
 @media only screen and (min-width:768px) and (max-width:1239px) {
-    body {
-        /*Gradiente*/
+    body
+{
+    /*Gradiente*/
+    /*
         background-image: linear-gradient(to top,aqua,white);
     }
     .header {
@@ -450,9 +464,11 @@ ol{grid-area:ranking;
        
     }
     }
-
+            */
 
     /*vista desktop */
+    /*
+
     @media only screen and (min-width:1240px) {
         body{
     background-image: url(https://c.wallhere.com/photos/c9/25/1920x1080_px_Abstract_Blue_And_White_Wallpaper_HD-809474.jpg!d);
@@ -463,3 +479,5 @@ ol{grid-area:ranking;
             width:1000px;
         }
         }
+
+        */
