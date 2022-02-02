@@ -5,7 +5,7 @@
 
 body {
     background-image: url(https://c.wallhere.com/photos/c9/25/1920x1080_px_Abstract_Blue_And_White_Wallpaper_HD-809474.jpg!d);
-    background-size: cover;
+    background-size:100%;
 }
 
 /*Grid y formato para html Index*/
@@ -199,23 +199,22 @@ gridContainer3 {
 
 
 .componentes{display:flex;
-              flex-wrap:wrap;
               flex-direction:row;
              justify-content:space-evenly;
-             margin-top:5vh;
-             margin-bottom:5vh;
+             margin-top:5%;
+             margin-bottom:5%;
 
 }
 
 .elementos {
-    display: flex;
     text-align:center;
     border-style: groove;
     border-radius: 1000px;
     background-color: darkblue;
     display: inline-block;
-    height: 5vh;
-    width: 15vh;
+    padding:2%;
+    height: 10%;
+    width: 30%;
 }
 
 /*Grid y formato para html "Contacto"*/
@@ -251,8 +250,8 @@ nav2{grid-area:mapa;
     justify-items:flex-start;
     flex-wrap: nowrap;
     text-align: left;
-    margin-left: 33%;
-    margin-right: 33%;
+    margin-left: 15%;
+    margin-right: 15%;
     border: dotted;
     background-color: black;
     color: white;

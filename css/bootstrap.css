@@ -680,6 +680,9 @@ progress {
 
 .col {
   flex: 1 0 0%;
+  background-color:cornflowerblue;
+  color:white;
+  border:;
 }
 
 .row-cols-auto > * {
@@ -5069,13 +5072,14 @@ textarea.form-control-lg {
 }
 
 .list-group-item {
-  position: relative;
-  display: block;
-  padding: 0.5rem 1rem;
-  color: #212529;
-  text-decoration: none;
-  background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+    text-align: center;
+    position: relative;
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #212529;
+    text-decoration: none;
+    background-color: transparent;
+    /*border: 1px solid rgba(0, 0, 0, 0.125);*/
 }
 .list-group-item:first-child {
   border-top-left-radius: inherit;

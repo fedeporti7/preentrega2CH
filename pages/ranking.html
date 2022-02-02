@@ -7,34 +7,53 @@
     <link rel="shortcut icon" href="../images/garrafita.png">
     <title>Ranking</title>
     <link rel="stylesheet" href="../css/style.css" />
-
+    <link rel="stylesheet" href="../css/bootstrap.css" />
 </head>
 
 <body>
-    <div class="gridContainer5">
+    <!--Contenedor con clase bootstrap-->
+    <div class="container-fluid">
         <header class="header">
             <h2>Ranking</h2>
         </header>
 
         <h3 class="titulo">Los principales distribuidores son:</h3>
-        <ol>
-            <li class="item">Gas del Sur SA</li>
-            <li class="item">Distribuidora Pepito SH</li>
-            <li class="item">Gas Pepe y mas SRL</li>
-            <li class="item">Gas para todes SA</li>
-            <li class="item">La gasifera SRL</li>
-            <li class="item">Alguien mas SA</li>
+        <!--<ol>
+        <li class="item">Gas del Sur SA</li>
+        <li class="item">Distribuidora Pepito SH</li>
+        <li class="item">Gas Pepe y mas SRL</li>
+        <li class="item">Gas para todes SA</li>
+        <li class="item">La gasifera SRL</li>
+        <li class="item">Alguien mas SA</li>
+    </ol>-->
+        <ol class="list-group list-group-numbered">
+            <li class="list-group-item">Gas del Sur SA</li>
+            <li class="list-group-item">Distribuidora Pepito SH</li>
+            <li class="list-group-item">Gas Pepe y mas SRL</li>
+            <li class="list-group-item">Gas para todes SA</li>
+            <li class="list-group-item">La gasifera SRL</li>
+            <li class="list-group-item">Alguien mas SA</li>
         </ol>
-        <section>
-            <h3 class="menu">Menu</h3>
-            <ul class="menuFlex">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="antecedentes.html">Antecedentes</a></li>
-                <li><a href="componentes.html">Componentes</a></li>
-                <li><a href="ranking.html">Ranking</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </section>
+        <!--
+    <section>
+        <h3 class="menu">Menu</h3>
+        <ul class="menuFlex">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="antecedentes.html">Antecedentes</a></li>
+            <li><a href="componentes.html">Componentes</a></li>
+            <li><a href="ranking.html">Ranking</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </section>-->
+        <!--Menú con clase bootstrap-->
+        <h3 class="menu">Menu</h3>
+        <nav class="nav nav-pills nav-fill">
+            <a class="nav-link" href="../index.html">Home</a>
+            <a class="nav-link" href="antecedentes.html">Antecedentes</a>
+            <a class="nav-link" href="componentes.html">Componentes</a>
+            <a class="nav-link active" aria-current="page" href="ranking.html">Ranking</a>
+            <a class="nav-link" href="contacto.html">Contacto</a>
+        </nav>
 
         <!-- Footer -->
         <footer class="footer">
