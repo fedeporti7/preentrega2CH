@@ -217,6 +217,11 @@ gridContainer3 {
     width: 30%;
 }
 
+.elementos:hover{background-color:aqua;
+                 color:black;
+}
+
+
 /*Grid y formato para html "Contacto"*/
 .gridContainer4 {
     display: grid;

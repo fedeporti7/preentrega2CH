@@ -1955,19 +1955,21 @@ progress {
   }
 }
 .table {
-  --bs-table-bg: transparent;
-  --bs-table-accent-bg: transparent;
-  --bs-table-striped-color: #212529;
-  --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
-  --bs-table-active-color: #212529;
-  --bs-table-active-bg: rgba(0, 0, 0, 0.1);
-  --bs-table-hover-color: #212529;
-  --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
-  width: 100%;
-  margin-bottom: 1rem;
-  color: #212529;
-  vertical-align: top;
-  border-color: #dee2e6;
+    --bs-table-bg: transparent;
+    --bs-table-accent-bg: transparent;
+    --bs-table-striped-color: #212529;
+    --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
+    --bs-table-active-color: #212529;
+    --bs-table-active-bg: rgba(0, 0, 0, 0.1);
+    --bs-table-hover-color: #212529;
+    --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
+    width: 50%;
+    margin-bottom: 1rem;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    color: #212529;
+    vertical-align: top;
+    border-color: #dee2e6;
 }
 .table > :not(caption) > * > * {
   padding: 0.5rem 0.5rem;
@@ -3924,7 +3926,7 @@ textarea.form-control-lg {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #0d6efd;
+  color: black;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -5081,10 +5083,15 @@ textarea.form-control-lg {
     background-color: transparent;
     /*border: 1px solid rgba(0, 0, 0, 0.125);*/
 }
-.list-group-item:first-child {
-  border-top-left-radius: inherit;
-  border-top-right-radius: inherit;
-}
+
+    .list-group-item:hover{
+              
+        color:dodgerblue;}
+
+    .list-group-item:first-child {
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+    }
 .list-group-item:last-child {
   border-bottom-right-radius: inherit;
   border-bottom-left-radius: inherit;
@@ -6471,8 +6478,10 @@ textarea.form-control-lg {
 }
 
 .ratio {
-  position: relative;
-  width: 100%;
+    position: relative;
+    width: 75%;
+    margin-right: auto !important;
+    margin-left: auto !important;
 }
 .ratio::before {
   display: block;
@@ -7241,7 +7250,7 @@ textarea.form-control-lg {
   margin-left: 3rem !important;
 }
 
-.mx-auto {
+.mx-auto {margin-top:5vh;margin-bottom:5vh;
   margin-right: auto !important;
   margin-left: auto !important;
 }
